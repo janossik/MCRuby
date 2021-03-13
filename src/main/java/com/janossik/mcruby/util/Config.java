@@ -10,7 +10,7 @@ public class Config {
     public  static ForgeConfigSpec SERVER_CONFIG;
     public  static ForgeConfigSpec CLIENT_CONFIG;
 
-    public static ForgeConfigSpec.IntValue RUBY_LUCK_DURATION;
+    public static ForgeConfigSpec.IntValue RUBY_HERO_OF_THE_VILLAGE_DURATION;
 
     static {
         ForgeConfigSpec.Builder SERVER_BUILDER = new ForgeConfigSpec.Builder();
@@ -23,7 +23,7 @@ public class Config {
     }
 
     private static void glowingDuration(ForgeConfigSpec.Builder SERVER_BUILDER, ForgeConfigSpec.Builder CLIENT_BUILDER){
-        RUBY_LUCK_DURATION = CLIENT_BUILDER.comment("How long the glowing lasts for Ruby Apples (in ticks)")
+        RUBY_HERO_OF_THE_VILLAGE_DURATION = CLIENT_BUILDER.comment("How long the glowing lasts for Ruby Apples (in ticks)")
                 .defineInRange("glow_duration",600,100, Integer.MAX_VALUE);
     }
 

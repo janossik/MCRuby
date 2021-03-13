@@ -20,8 +20,10 @@
   "block.mcruby.ruby_slab": "Ruby Slab",
   "block.mcruby.ruby_wall": "Ruby Wall",
   "item.mcruby.ruby_apple": "Ruby Apple",
+  "block.mcruby.bracteatus_crop": "Bracteatus Seed",
+
   "mcruby.item.tooltip.shift": "Hold§e SHIFT§7 for more information.",
-  "mcruby.item.tooltip.appleRuby": "§7This item has a 30% chance for a luck effect, and can also have unknown effects on animals.",
+  "mcruby.item.tooltip.appleRuby": "§7 This item has a 30% chance for the villager worship effect, and can also have an unknown effect on animals.",
 
   "itemGroup.mcruby": "MCRuby"
 }

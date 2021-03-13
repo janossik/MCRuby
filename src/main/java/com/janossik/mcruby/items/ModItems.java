@@ -1,6 +1,7 @@
 package com.janossik.mcruby.items;
 
 import com.janossik.mcruby.McRubyMod;
+import com.janossik.mcruby.blocks.ModBlocks;
 import com.janossik.mcruby.material.RubyArmorMaterial;
 import com.janossik.mcruby.material.RubyToolsMaterial;
 import com.janossik.mcruby.util.Registration;
@@ -115,6 +116,9 @@ public class ModItems {
                     ()-> new ArmorItem(RubyArmorMaterial.RUBY, EquipmentSlotType.FEET,
                             new Item.Properties().group(McRubyMod.TAB_MOD))
             );
+
+    public static final RegistryObject<Item> BRACTEATUS_SEED = Registration.ITEMS.register("bracteatus_seed",
+            ()-> new BlockItem(ModBlocks.BRACTEATUS_CROP.get(),new Item.Properties().group(McRubyMod.TAB_MOD)));
 
     public static void register(){}
 }

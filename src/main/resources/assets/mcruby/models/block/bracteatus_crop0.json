@@ -1,0 +1,6 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "mcruby:block/bracteatus_crop_stage0"
+  }
+}

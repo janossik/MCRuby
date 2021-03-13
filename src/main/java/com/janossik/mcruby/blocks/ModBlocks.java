@@ -58,6 +58,8 @@ public class ModBlocks {
                     .hardnessAndResistance(3f, 10f)
                     .harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
 
+public static final RegistryObject<Block> BRACTEATUS_CROP = Registration.BLOCKS.register("bracteatus_crop",
+        ()-> new BracteatusCrop(AbstractBlock.Properties.from(Blocks.WHEAT)));
 
     public static void register() { }
 

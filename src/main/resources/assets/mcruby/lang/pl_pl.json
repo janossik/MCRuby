@@ -1,9 +1,9 @@
 {
   "item.mcruby.ruby": "Rubin",
-  "item.mcruby.ruby_axe": "Topór rubinowy",
-  "item.mcruby.ruby_pickaxe": "Kilof rubinowy",
-  "item.mcruby.ruby_shovel": "Łopata rubinowa",
-  "item.mcruby.ruby_hoe": "Młotyka rubinowa",
+  "item.mcruby.ruby_axe": "Rubinowy topór",
+  "item.mcruby.ruby_pickaxe": "Rubinowy kilof",
+  "item.mcruby.ruby_shovel": "Rubinowa łopata",
+  "item.mcruby.ruby_hoe": "Rubinowa Młotyka",
   "block.mcruby.ruby_block": "Blok rubinu",
   "block.mcruby.ruby_ore": "Ruda rubinu",
   "item.mcruby.ruby_sword": "Rubinowy miecz",
@@ -19,9 +19,11 @@
   "block.mcruby.ruby_pressure_plate": "Rubinowa płyta naciskowa",
   "block.mcruby.ruby_slab": "Rubinowy półblok",
   "block.mcruby.ruby_wall": "Rubinowy murek",
-  "item.mcruby.ruby_apple": "Jabłko rubinowe",
+  "item.mcruby.ruby_apple": "Rubinowe jabłko",
+  "block.mcruby.bracteatus_crop": "Nasiona Beacteatusa",
+
   "mcruby.item.tooltip.shift": "Przetrzymaj klawisz§e SHIFT§7 po więcej infromacji.",
-  "mcruby.item.tooltip.appleRuby": "§7Ten przedmiot daje 30% szans na efekt szczęścia, może mieć również niezneny wpływ na zwierzęta.",
+  "mcruby.item.tooltip.appleRuby": "§7Ten przedmiot daje 30% szans na efekt uwielbienia wieśniaków, może mieć również niezneny wpływ na zwierzęta.",
 
   "itemGroup.mcruby": "MCRuby"
 }

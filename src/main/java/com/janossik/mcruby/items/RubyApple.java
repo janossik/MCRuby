@@ -20,7 +20,7 @@ public class RubyApple extends Item {
         super(new Item.Properties().group(McRubyMod.TAB_MOD).food(new Food.Builder()
                 .hunger(5)
                 .saturation(1.5f)
-                .effect(() -> new EffectInstance(Effects.LUCK, Config.RUBY_LUCK_DURATION.get(), 1), 0.3f)
+                .effect(() -> new EffectInstance(Effects.HERO_OF_THE_VILLAGE, Config.RUBY_HERO_OF_THE_VILLAGE_DURATION.get(), 1), 0.3f)
                 .build()));
     }
 
