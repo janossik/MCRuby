@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "mcruby:block/ruby_block" }
+  }
+}

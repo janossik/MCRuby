@@ -1,0 +1,27 @@
+{
+  "item.mcruby.ruby": "Ruby",
+  "item.mcruby.ruby_axe": "Ruby Axe",
+  "item.mcruby.ruby_pickaxe": "Ruby Pickaxe",
+  "item.mcruby.ruby_shovel": "Ruby Shovel",
+  "item.mcruby.ruby_hoe": "Ruby Hoe",
+  "block.mcruby.ruby_block": "Ruby Block",
+  "block.mcruby.ruby_ore": "Ruby Ore",
+  "item.mcruby.ruby_sword": "Ruby Sword",
+  "item.mcruby.ruby_greatsword": "Ruby Greatsword",
+  "item.mcruby.ruby_helmet": "Ruby Helmet",
+  "item.mcruby.ruby_chestplate": "Ruby Chestplate",
+  "item.mcruby.ruby_leggings": "Ruby Leggings",
+  "item.mcruby.ruby_boots": "Ruby Boots",
+  "block.mcruby.ruby_stairs": "Ruby Stairs",
+  "block.mcruby.ruby_fence": "Ruby Fence",
+  "block.mcruby.ruby_fence_gate": "Ruby Fence Gate",
+  "block.mcruby.ruby_button": "Ruby Button",
+  "block.mcruby.ruby_pressure_plate": "Ruby Pressure Plate",
+  "block.mcruby.ruby_slab": "Ruby Slab",
+  "block.mcruby.ruby_wall": "Ruby Wall",
+  "item.mcruby.ruby_apple": "Ruby Apple",
+  "mcruby.item.tooltip.shift": "Hold§e SHIFT§7 for more information.",
+  "mcruby.item.tooltip.appleRuby": "§7This item has a 30% chance for a luck effect, and can also have unknown effects on animals.",
+
+  "itemGroup.mcruby": "MCRuby"
+}

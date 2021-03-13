@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mcruby:ruby_slab"
+    },
+    "X": {
+      "item": "mcruby:ruby"
+    }
+  },
+  "result": {
+    "item": "mcruby:ruby_wall",
+    "count": 4
+  }
+}

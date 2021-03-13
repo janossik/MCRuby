@@ -1,0 +1,27 @@
+{
+  "item.mcruby.ruby": "Rubin",
+  "item.mcruby.ruby_axe": "Topór rubinowy",
+  "item.mcruby.ruby_pickaxe": "Kilof rubinowy",
+  "item.mcruby.ruby_shovel": "Łopata rubinowa",
+  "item.mcruby.ruby_hoe": "Młotyka rubinowa",
+  "block.mcruby.ruby_block": "Blok rubinu",
+  "block.mcruby.ruby_ore": "Ruda rubinu",
+  "item.mcruby.ruby_sword": "Rubinowy miecz",
+  "item.mcruby.ruby_greatsword": "Rubinowy wielki miecz",
+  "item.mcruby.ruby_helmet": "Rubinowy hełm",
+  "item.mcruby.ruby_chestplate": "Rubinowy napierśnik",
+  "item.mcruby.ruby_leggings": "Rubinowe spodnie",
+  "item.mcruby.ruby_boots": "Rubinowe buty",
+  "block.mcruby.ruby_stairs": "Rubinowe schody",
+  "block.mcruby.ruby_fence": "Rubinowy płot",
+  "block.mcruby.ruby_fence_gate": "Rubinowa furtka",
+  "block.mcruby.ruby_button": "Rubinowy przycisk",
+  "block.mcruby.ruby_pressure_plate": "Rubinowa płyta naciskowa",
+  "block.mcruby.ruby_slab": "Rubinowy półblok",
+  "block.mcruby.ruby_wall": "Rubinowy murek",
+  "item.mcruby.ruby_apple": "Jabłko rubinowe",
+  "mcruby.item.tooltip.shift": "Przetrzymaj klawisz§e SHIFT§7 po więcej infromacji.",
+  "mcruby.item.tooltip.appleRuby": "§7Ten przedmiot daje 30% szans na efekt szczęścia, może mieć również niezneny wpływ na zwierzęta.",
+
+  "itemGroup.mcruby": "MCRuby"
+}

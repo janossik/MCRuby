@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X#X",
+    "X#X"
+  ],
+  "key": {
+    "#": {
+      "item": "mcruby:ruby"
+    },
+    "X": {
+      "item": "mcruby:ruby_block"
+    }
+  },
+  "result": {
+    "item": "mcruby:ruby_fence",
+    "count": 6
+  }
+}
