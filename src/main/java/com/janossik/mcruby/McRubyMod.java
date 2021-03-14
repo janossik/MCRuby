@@ -1,6 +1,7 @@
 package com.janossik.mcruby;
 
 import com.janossik.mcruby.blocks.ModBlocks;
+import com.janossik.mcruby.blocks.crops.CropsBlocks;
 import com.janossik.mcruby.items.ModItems;
 import com.janossik.mcruby.util.Config;
 import com.janossik.mcruby.util.Registration;
@@ -68,7 +69,7 @@ public class McRubyMod
 
     private void doClientStuff(final FMLClientSetupEvent event) {
         // do something that can only be done on the client
-        RenderTypeLookup.setRenderLayer(ModBlocks.BRACTEATUS_CROP.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(CropsBlocks.BRACTEATUS_CROP.get(), RenderType.getCutout());
     }
 
 }

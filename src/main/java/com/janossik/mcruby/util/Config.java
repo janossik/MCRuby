@@ -11,6 +11,7 @@ public class Config {
     public  static ForgeConfigSpec CLIENT_CONFIG;
 
     public static ForgeConfigSpec.IntValue RUBY_HERO_OF_THE_VILLAGE_DURATION;
+    public static ForgeConfigSpec.IntValue RUBY_REGENERATION_DURATION;
 
     static {
         ForgeConfigSpec.Builder SERVER_BUILDER = new ForgeConfigSpec.Builder();
@@ -24,7 +25,9 @@ public class Config {
 
     private static void glowingDuration(ForgeConfigSpec.Builder SERVER_BUILDER, ForgeConfigSpec.Builder CLIENT_BUILDER){
         RUBY_HERO_OF_THE_VILLAGE_DURATION = CLIENT_BUILDER.comment("How long the glowing lasts for Ruby Apples (in ticks)")
-                .defineInRange("glow_duration",600,100, Integer.MAX_VALUE);
+                .defineInRange("ruby_hero_of_the_village_duration",600,100, Integer.MAX_VALUE);
+        RUBY_REGENERATION_DURATION = CLIENT_BUILDER.comment("How long the glowing lasts for Ruby Apples (in ticks)")
+                .defineInRange("ruby_regeneration_duration",100,20, Integer.MAX_VALUE);
     }
 
     public static void loadConfigFile(ForgeConfigSpec config, String path){

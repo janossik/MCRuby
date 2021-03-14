@@ -1,4 +1,4 @@
-package com.janossik.mcruby.items;
+package com.janossik.mcruby.items.foods;
 
 import com.janossik.mcruby.McRubyMod;
 import com.janossik.mcruby.util.Config;
@@ -18,8 +18,8 @@ import java.util.List;
 public class RubyApple extends Item {
     public RubyApple(){
         super(new Item.Properties().group(McRubyMod.TAB_MOD).food(new Food.Builder()
-                .hunger(5)
-                .saturation(1.5f)
+                .hunger(4)
+                .saturation(2.5f)
                 .effect(() -> new EffectInstance(Effects.HERO_OF_THE_VILLAGE, Config.RUBY_HERO_OF_THE_VILLAGE_DURATION.get(), 1), 0.3f)
                 .build()));
     }
