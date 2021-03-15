@@ -14,6 +14,7 @@ import java.util.function.Supplier;
 
 public class ModBlocks {
 
+
     public static <T extends Block> RegistryObject<T> register(String name, Supplier<T> block)
     {
         RegistryObject<T> toReturn = Registration.BLOCKS.register(name, block);

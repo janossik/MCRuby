@@ -21,6 +21,9 @@
   "block.mcruby.ruby_wall": "Ruby Wall",
   "item.mcruby.ruby_apple": "Ruby Apple",
   "block.mcruby.bracteatus_crop": "Bracteatus Seed",
+  "item.mcruby.bracteatus_yield": "Bracteatus",
+  "mcruby.item.tooltip.bracteatusyield": "it can give 5s hp regeneration",
+
 
   "mcruby.item.tooltip.shift": "Hold§e SHIFT§7 for more information.",
   "mcruby.item.tooltip.appleRuby": "§7 This item has a 30% chance for the villager worship effect, and can also have an unknown effect on animals.",

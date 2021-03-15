@@ -1,16 +1,11 @@
 package com.janossik.mcruby.blocks.ruby;
 
-import com.janossik.mcruby.McRubyMod;
 import com.janossik.mcruby.blocks.ModBlocks;
-import com.janossik.mcruby.util.Registration;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
 
-import java.util.function.Supplier;
 
 public class RubyBlocks {
     public static RegistryObject<Block> RUBY_BLOCK =
@@ -19,7 +14,7 @@ public class RubyBlocks {
 
     public static RegistryObject<Block> RUBY_ORE =
             ModBlocks.register("ruby_ore", () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
-                    .hardnessAndResistance(3f, 10f).setLightLevel(s->3)
+                    .hardnessAndResistance(3.0F, 3.0F).setLightLevel( s -> 3)
                     .harvestLevel(3).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
 
     public static final RegistryObject<Block> RUBY_STAIRS =

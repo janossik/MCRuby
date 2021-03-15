@@ -11,8 +11,12 @@ import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 
 
+
+
 public class ModItems {
     public static RegistryObject<Item> RUBY = Registration.ITEMS.register("ruby", ()-> new Item(new Item.Properties().group(McRubyMod.TAB_MOD)));
+
+
     public static void register(){
         ArmorsItems.register();
         ToolsItems.register();
